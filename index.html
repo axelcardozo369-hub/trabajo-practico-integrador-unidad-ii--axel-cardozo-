@@ -11,7 +11,36 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
     crossorigin="anonymous"
   />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <body>
+    <!-- Agregamos 'justify-content-start' para que todo se agrupe a la izquierda -->
+    <header
+      class="container d-flex align-items-center py-3 justify-content-start bg-success"
+    >
+      <!-- El Logo con un margen a la derecha (me-5) para separar el menú un poco -->
+      <a
+        href="index.html"
+        class="d-flex align-items-center me-5 link-body-emphasis text-decoration-none"
+      >
+        <img src="assets/img/logo.png" width="150" alt="logo IPF" />
+      </a>
+
+      <!-- El Menú ahora estará pegado al logo gracias al 'justify-content-start' -->
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link" aria-current="page">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a href="institucional.html" class="nav-link">INSTITUCIONAL</a>
+        </li>
+        <li class="nav-item">
+          <a href="carreras.html" class="nav-link">CARRERAS</a>
+        </li>
+        <li class="nav-item">
+          <a href="contacto.html" class="nav-link">CONTACTO</a>
+        </li>
+      </ul>
+    </header>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
