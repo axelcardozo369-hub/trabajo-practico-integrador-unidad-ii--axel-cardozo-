@@ -12,6 +12,145 @@
     crossorigin="anonymous"
   />
   <body>
+    <header
+      class="container d-flex align-items-center py-3 justify-content-start bg-success"
+    >
+      <!-- El Logo con un margen a la derecha (me-5) para separar el menú un poco -->
+      <a
+        href="index.html"
+        class="d-flex align-items-center me-5 link-body-emphasis text-decoration-none"
+      >
+        <img src="assets/img/logo.png" width="150" alt="logo IPF" />
+      </a>
+
+      <!-- El Menú ahora estará pegado al logo gracias al 'justify-content-start' -->
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a
+            href="index.html"
+            class="nav-link text-black link"
+            aria-current="page"
+            >INICIO</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="institucional.html" class="nav-link text-black link"
+            >INSTITUCIONAL</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="carreras.html" class="nav-link text-black link">CARRERAS</a>
+        </li>
+        <li class="nav-item">
+          <a href="contacto.html" class="nav-link text-black link">CONTACTO</a>
+        </li>
+      </ul>
+    </header>
+    <!---como titulo-->
+    <h1 class="text-success text-center mb-5">Información Institucional</h1>
+    <img
+      src="assets/img/imagen_noticia_1754682267-0.webp"
+      class="rounded mx-auto d-block"
+      alt="Polo"
+    />
+    <div class="container mt-5">
+      <div class="border border-success rounded p-4 shadow-sm">
+        <p class="mb-3">
+          El Instituto Politécnico Formosa (IPF) "Dr. Alberto Marcelo Zorrilla"
+          fue creado oficialmente mediante el decreto provincial N° 18/2018 del
+          31 de enero de 2018, con el objetivo de formar técnicos superiores en
+          áreas de alta tecnología para impulsar el desarrollo productivo local.
+          Su origen se remonta a julio de 2013, cuando se comenzó a planificar
+          un Polo Científico, Tecnológico y de Innovación (PCTI) en la
+          provincia, diseñando trayectos formativos que articularan teoría y
+          práctica. Las clases de la primera tecnicatura, Mecatrónica, se
+          iniciaron el 19 de marzo de 2018 en las instalaciones de la EPET N° 1,
+          con una matrícula inicial de 40 alumnos. La institución funcionó
+          inicialmente en la EPET 1 y la EPET 10, y posteriormente utilizó
+          espacios del Polo Científico, hasta que el 26 de junio de 2025 se
+          inauguró su propio edificio sede en la Ruta Nacional N° 81, kilómetro
+          1190. El IPF ofrece actualmente cuatro tecnicaturas superiores:
+          Mecatrónica, Desarrollo de Software Multiplataforma, Química
+          Industrial y Telecomunicaciones. La institución lleva el nombre en
+          honor al Dr. Alberto Marcelo Zorrilla, exministro de Cultura y
+          Educación de Formosa que falleció en 2021, reconocido por su defensa
+          de la educación pública.
+        </p>
+      </div>
+    </div>
+    <section class="mb-5">
+      <h2 class="text-success mb-4 text-center">Misión y Visión</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="border rounded p-4 shadow-sm h-100">
+            <h4 class="text-success">Misión</h4>
+            <p>
+              Brindar educación técnica superior de calidad, promoviendo la
+              formación integral de los estudiantes mediante la articulación
+              entre el conocimiento teórico y la práctica profesional,
+              contribuyendo al desarrollo productivo y tecnológico de la región.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="border rounded p-4 shadow-sm h-100">
+            <h4 class="text-success">Visión</h4>
+            <p>
+              Ser una institución de referencia en la formación técnica,
+              reconocida por su excelencia académica, innovación educativa y
+              vinculación con el sector productivo, formando profesionales
+              comprometidos con el desarrollo sostenible.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h3 class="text-success text-center mb-5">Autoridades</h3>
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-success"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          aria-label="Bootstrap"
+        >
+          <svg class="bi" width="30" height="24" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-white"
+          ><font style="vertical-align: inherit"
+            ><font style="vertical-align: inherit text-black bg-dark"
+              >© 2026 Instituto Politécnico Formosa</font
+            ></font
+          ></span
+        >
+      </div>
+      <ul
+        class="nav col-md-4 justify-content-end list-unstyled d-flex gap-2 p-3"
+      >
+        <li class="ms-3">
+          <a
+            class="text-white"
+            href="https://www.instagram.com/ipformosa?igsh=MWd4aDR1OHc0OWNweQ=="
+            aria-label="Instagram"
+          >
+            <i class="bi bi-instagram fs-3"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a
+            class="text-white"
+            href="https://www.facebook.com/IPFormosa"
+            aria-label="Facebook"
+            ><i class="bi bi-facebook fs-3"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
